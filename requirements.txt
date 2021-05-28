@@ -1,0 +1,6 @@
+gspread
+oauth2client
+pyfiglet
+unittest2
+pandas
+numpy
