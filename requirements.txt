@@ -1,3 +1,4 @@
+pyudmi==0.0.6
 gspread
 oauth2client
 pyfiglet
