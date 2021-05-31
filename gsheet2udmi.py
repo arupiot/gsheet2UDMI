@@ -92,8 +92,8 @@ class gsheet2UDMI:
                     "points": {point:{} for point in row['dbo_pointnames'].split()}
                 }
 
-            # metadata = udmi.MetaData(timestamp, system, cloud=cloud)
-            metadata = udmi.MetaData(timestamp, system, pointset=pointset)
+            metadata = udmi.MetaData(timestamp, system, pointset=pointset, cloud=cloud)
+            # metadata = udmi.MetaData(timestamp, system, pointset=pointset)
             udmi_string = metadata.as_udmi()
             print(row['asset_name'],)
             # create device folder
@@ -151,8 +151,8 @@ class gsheet2UDMI:
                     "points": {point:{} for point in row['dbo_pointnames'].split()}
                 }
 
-            #metadata = udmi.MetaData(timestamp, system, gateway=gateway, pointset=pointset, cloud=cloud)
-            metadata = udmi.MetaData(timestamp, system, gateway=gateway, pointset=pointset)
+            metadata = udmi.MetaData(timestamp, system, gateway=gateway, pointset=pointset, cloud=cloud)
+            #metadata = udmi.MetaData(timestamp, system, gateway=gateway, pointset=pointset)
             udmi_string = metadata.as_udmi()
             print(row['connector_name'], row['asset_name'])
             #print(udmi_string)
