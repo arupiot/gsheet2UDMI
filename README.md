@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-pip3 install -r requirements
+pip3 install -r requirements.txt
 ```
 
 ## Google Sheet Template format
