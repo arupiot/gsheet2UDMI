@@ -183,7 +183,7 @@ class gsheet2UDMI:
         p_data = project_wks.get_all_values()
         p_headers = p_data.pop(0)
         p_df = pd.DataFrame(p_data, columns=p_headers)
-        self.site_name = p_df.iloc[0]['site_name']
+        self.site_name = p_df.iloc[0]['project_name']
         print("Site name:", self.site_name)
 
         # create cloud_iot_config.json file
