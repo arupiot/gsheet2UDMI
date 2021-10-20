@@ -1,4 +1,4 @@
-pyudmi==0.0.6
+git+https://github.com/arupiot/pyudmi.git@master
 gspread
 oauth2client
 pyfiglet
