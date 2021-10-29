@@ -5,7 +5,7 @@
 Create a virtual environment
 
 ```
-python3 -m pip venv env
+python3 -m venv env
 ```
 ```
 source env/bin/activate

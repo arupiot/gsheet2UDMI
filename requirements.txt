@@ -1,4 +1,4 @@
-git+https://github.com/arupiot/pyudmi.git@master
+git+https://github.com/arupiot/pyudmi.git@ccedfb25efc7098177c18db2a2dfe031cb5bde3a
 gspread
 oauth2client
 pyfiglet
